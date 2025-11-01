@@ -1,0 +1,29 @@
+# Ignore all files and directories
+*
+
+# But include the following files (negate the ignore)
+!README.md
+!.gitignore
+!network-reset.bat
+
+# Ignore specific file types that might be generated
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Ignore system files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Ignore editor files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Ignore Windows-specific files
+*.lnk
+*.exe.config
